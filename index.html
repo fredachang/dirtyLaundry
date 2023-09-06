@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dirty Laundry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              mintTransparent: "rgba(194,255,188,0.3)",
+              mint: "rgb(194,255,188)",
+              customGrey: "#EEEEEE",
+            },
+            height: {
+              "5%": "5%",
+              "7%": "7%",
+              "10%": "10%",
+              "15%": "15%",
+              "18%": "18%",
+              "20%": "20%",
+              "22.5%": "22.5%",
+              "25%": "25%",
+              "40%": "40%",
+              "65%": "65%",
+              "67.5%": "67.5%",
+              "72%": "72%",
+              "70%": "70%",
+              "75%": "75%",
+              "80%": "80%",
+              "86%": "86%",
+              "90%": "90%",
+              "93%": "93%",
+              "10%": "10%",
+              "95%": "95%",
+              "100%": "100%",
+              "1/8": "12.5%",
+              "2/8": "25%",
+              "3/8": "37.5%",
+              "4/8": "50%",
+              "5/8": "62.5%",
+              "6/8": "75%",
+              "7/8": "87.5%",
+            },
+            fontFamily: {
+              medium: "NeueMontreal-Medium",
+              book: "NeueMontreal-Book",
+              light: "NeueMontreal-Light",
+              thin: "NeueMontreal-Thin",
+              serif: "Tobias",
+              mono: "FoundersGrotesk-Regular",
+            },
+            fontSize: {
+              xxs: "0.65rem",
+              "5xl": "2.5rem",
+            },
+            lineHeight: {
+              5.5: "1.3rem",
+            },
+            // cursor: {
+            //   fancy: "url(CursorPointer.png), pointer",
+            // },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
